@@ -75,7 +75,7 @@ namespace DotNetApiDemo.Controllers
                 {
                     return Created("", post);
                 }
-                return BadRequest("Post save failed.");
+                return BadRequest("Post save fail.");
             }
             catch (Exception ex)
             {
