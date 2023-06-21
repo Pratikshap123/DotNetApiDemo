@@ -120,7 +120,7 @@ namespace DotNetApiDemo.Controllers
                 {
                     return Ok("Post has been deleted.");
                 }
-                return BadRequest("commit.");
+                return BadRequest("pull message");
             }
             catch (Exception ex)
             {
