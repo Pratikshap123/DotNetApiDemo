@@ -126,11 +126,7 @@ namespace DotNetApiDemo.Controllers
             {
                 return BadRequest(ex.Message);
             }
-        }
-           
-        public ActionResult ind(int id)
-        {
-            return Ok(id);
-        }
+        }           
+       
     }
 }
