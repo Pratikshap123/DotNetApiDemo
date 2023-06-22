@@ -118,7 +118,7 @@ namespace DotNetApiDemo.Controllers
                 bool isDelete = _postManager.Delete(post);
                 if (isDelete)
                 {
-                    return Ok("Post has been deleted.");
+                    return Ok("Post has been...");
                 }
                 return BadRequest("change");
             }
