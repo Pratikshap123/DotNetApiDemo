@@ -120,13 +120,13 @@ namespace DotNetApiDemo.Controllers
                 {
                     return Ok("Post has been...");
                 }
-                return BadRequest("change");
+                return BadRequest("Post delete failed.");
             }
             catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }
-        }
-            
+        }           
+       
     }
 }
